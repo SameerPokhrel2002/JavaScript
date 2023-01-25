@@ -10,3 +10,4 @@ function Person(first,last,age,eyecolor){
 const myFather=new Person("Hari","Pokhrel",50,"brown");
 const myMother=new Person("Sarasawati","Pokhrel",45,"black");
 console.log(myFather);
+console.log(myMother);
