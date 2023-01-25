@@ -1,0 +1,25 @@
+//this was added!!!
+
+let num=4;
+let result=Math.pow(4,2); //pow function returns the number to a specified power
+console.log(result);
+
+//another way to do it is to use double power
+let num1=3;
+let res=num1**3; // double asterisk means power
+console.log(res);
+
+// == vs ===
+let var1="2"; let var2=2;
+let ans=var1==var2; //gives true because JS engine converts "2" to integer
+console.log(ans);
+
+//if we use === then JS engine checks whether the type of data is also same or not
+ans=var1===var2;
+console.log(ans); //gives false because data type is also used
+
+let x=1,y=2,z=3;
+let re=x<y && x<z; //logical and operator
+console.log(re);
+re=z<y || z<y; //logical or operator
+console.log(re);
